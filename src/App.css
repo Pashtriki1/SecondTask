@@ -70,12 +70,13 @@
   }
 }
 .toggle-btn{
-  width: 75%;
+  width: 96%;
   display: flex;
   font-size: 23px;
   padding: 19px;
-    border-radius: 15px;
-    border: 1px solid darkgrey;
+  border: none;
+    background-color: #fff;
+    
     justify-content: space-between;
     @media (max-width:427px) {
       width: fit-content;
@@ -88,10 +89,9 @@
 }
 .content{
   font-size: 19px;
-  border: 1px solid darkgrey;
-  margin-top: 45px;
-  width: 72%;
-  border-radius: 19px;
+ 
+  width: 96%;
+  border: none;
   padding: 18px;
   @media (max-width:221px) {
     width: fit-content;
@@ -116,3 +116,9 @@
     color:#fff ; 
      border-radius:  0 0;
 }
+.Content{
+  border: 1px solid #dbd1d1;
+  border-radius: 4px;
+  width: 72%;
+}
+

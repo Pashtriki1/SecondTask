@@ -11,15 +11,15 @@ const articles = [
   },
   {
     question: "Is Parkname Parking actually free?",
-    answer: "Yes, Parkname Parking is actually free."
+    answer: ""
   },
   {
     question: "What you do?",
-    answer: "We provide a platform for managing and monetizing your domain names."
+    answer: ""
   },
   {
     question: "When was Parkname first founded?",
-    answer: "Parkname was first founded in 2010."
+    answer: ""
   }
 ];
 
@@ -43,7 +43,8 @@ const AboutUs = () => {
           <img src="http://pluspng.com/img-png/user-png-icon-download-icons-logos-emojis-users-2240.png" alt="User Icon" />
         </div>
         <div className="about-us-content">
-          <h2>About Us</h2>
+          <h2>About Us {showArticles  ? '▲' : '▼ '}</h2>
+          
           <p>4 articles in this Topic</p>
         </div>
       </div>

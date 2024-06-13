@@ -18,18 +18,18 @@ function ToggleContent() {
 
   return (
     <div className='toggle-container'>
-      <button  className='toggle-btn'>
+      <div className='Content'>
+      <button  className='toggle-btn' onClick={toggleVisibility}>
         Why park a domain name in Parkname?
-        <IoIosArrowDropdownCircle onClick={toggleVisibility}/>
+       <span> {isVisible  ? '▲' : '▼ '}</span>
 
       </button>
       {isVisible && (
         <div className='content'>
-            <h3>Why park a domain name in Parkname?
-            <IoCaretUpOutline onClick={toggleVisibility}/>
+         
             
 
-            </h3>
+            
             <hr></hr>
           <p>
             Parkname is the leading industry standard for domain name parking
@@ -41,6 +41,7 @@ function ToggleContent() {
        
       )}
       
+    </div>
     </div>
   );
   
