@@ -93,7 +93,7 @@
   width: 96%;
   border: none;
   padding: 18px;
-  @media (max-width:221px) {
+  @media (max-width:1000px) {
     width: fit-content;
   }
 }
