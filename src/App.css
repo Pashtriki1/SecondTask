@@ -129,14 +129,19 @@
   width: 72%;
 }
 
+.react-tabs__tab-list {
+ 
+  
+
+}
+
 .react-tabs__tab {
   padding: 10px 15px;
   cursor: pointer;
 }
 
 .react-tabs__tab--selected {
-  border-bottom: 2px solid rgb(101, 101, 243);
+  border-bottom: 1px solid rgb(68, 68, 247);
   color: #000;
- 
 }
 
