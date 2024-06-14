@@ -1,6 +1,7 @@
 import React from 'react';
 import { Tabs, TabList, Tab, TabPanel } from 'react-tabs';
-import 'react-tabs/style/react-tabs.css';
+
+
 
 const tabsContent = {
   Domains: [
@@ -18,7 +19,7 @@ const tabsContent = {
 
 const TabsComponent = () => (
   <Tabs>
-    <TabList>
+    <TabList >
       <Tab>Domains</Tab>
       <Tab>Web Hosting</Tab>
       <Tab>Dedicated Servers</Tab>
